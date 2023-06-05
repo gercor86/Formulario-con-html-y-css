@@ -1,0 +1,37 @@
+body{
+
+    background-color: lightblue;
+    text-align: center;
+}
+
+#survey-form{
+    max-width: 500px;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+
+#name-label{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#number-label {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#email-label {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#select-lang{
+    display: flex;
+    flex-direction: column;
+    margin: 7px;
+}

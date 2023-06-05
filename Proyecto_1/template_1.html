@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario_Programación</title>
+</head>
+<body>
+    <h1 id="title">Programación</h1>
+
+    <p id="description">Sabes cuales son los lenguajes más usados.<br>
+    Agregar la año que se creo el lenguaje de programación.
+      Crear un correo ficticio, ejemplo @python.com
+    </p>
+
+    <form id="survey-form">
+      <div>
+        <label id ="name-label">
+            Nombre
+            <input id ="name" type="text" placeholder="nombre" required/>
+        </label>
+      </div> 
+
+       <div>
+        <label id ="number-label">
+            Año
+            <input id ="number" type="number" min ="13" max = "80" placeholder ="año" required/>
+        </label>
+      </div> 
+
+       <div>
+        <label id ="email-label">
+            Email
+            <input id ="email" type="email" placeholder ="email" required/>
+        </label>
+      </div> 
+       <label id ="select-lang">Seleccione un lenguaje
+        <select id="dropdown">
+        
+          <option></option>
+          <option>C</option>
+          <option>Java</option>
+          <option>Python</option>
+          </label>
+        
+
+        <select> <br>
+          ¿Agregaria otro lenguaje?
+          <br>
+          <label>Si</label>
+          <input type ="radio" name="Si" value="Si"/>
+          <label>No</label>
+          <input type ="radio" name="Si" value="No"/>
+          <br>
+          <label>
+            En caso de seleccionar si, nos dejarias un comentario.
+          </label>
+          <br>
+          <label>Si</label>
+          <input type="checkbox" name="Si" value="Si"/>
+           <label>No</label>
+          <input type="checkbox" name="No" value="No"/>
+        </select>
+        <br>
+        <label>Agregar comentario.</label>
+        <br>
+        <textarea></textarea>
+        <br>
+        <button id="submit" type="submit">Enviar</button>
+
+        
+    </form>
+</body>
+</html>
